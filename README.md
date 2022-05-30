@@ -21,6 +21,15 @@ $f_{1} (ω)= \frac{{σ^2}}{2π} , ω∈[−π,π] $
       * first sub-sub-item
 
     * second sub-item
+   
+ ![Cat in the cage](Cat.jpg.png)
+ 
+ ```
+library(tidyverse)
+library(mdsr)
+SAT_2010 %>% ggplot(aes(write,..density..)) + geom_histogram() +
+geom_density() + theme_minimal() + labs(title = "SAT Writing Scores") 
+```
   
 
 
